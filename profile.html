@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SkoolHub Rental - Profile</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lateef:wght@400&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400&display=swap" />
+        <link rel="stylesheet" href="/assets/css/profile_style.css" />
+        <script>
+            function logout() {
+                alert('You have been logged out.');
+                window.location.href = "welcome.html"; 
+            }
+        </script>
+        <script type="module" src="/assets/profile_java.js" defer></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="wrapper">
+                <span class="text">RENT NOW!</span>
+
+                <a href="facing_2.html">
+
+                    <div class="pic">
+                        <img src="/assets/3image/skoohub 2 (1).png" alt="SkoolHub Logo">
+                    </div>
+                </a>
+
+                <a href="cart.html">
+                    <div class="img">
+                        <img src="/assets/3image/shopping-cart-64 3.png" alt="Cart">
+                    </div>
+                </a>
+
+                <a href="profile.html">
+                    <div class="pic-2">
+                        <img src="/assets/3image/1_profile_user_avatar_account_person-132-64 3.png" alt="Profile">
+                    </div>
+                </a>
+
+               
+
+                <div>
+                    <a href="about.html" class="text-3">About</a>
+                    <a href="terms&condition.html" class="text-4">Terms & Condition</a>
+                </div>
+            </div>
+
+            <div class="group-2"></div>
+            <div class="section">
+
+                <a href="notification.html">
+                    <div class="img-3">
+                        <img src="/assets/3image/Notification-64 1.png" alt="Notification">
+                    </div>
+                </a>
+                <span class="text-5">Notification</span>
+
+                <div class="profile-picture">
+                    <img id="profilePicture" alt="Profile Picture" />
+                  </div>
+                  
+
+                <div class="user-info">
+                    <div class="wrapper-2">Loading...</div> 
+                </div>
+
+               
+                <a href="Editprofile.html">
+                    <div class="section-2">
+                        <span class="text-8">Edit Profile</span>
+                    </div>
+                </a>
+
+                <a href="renting.html">
+                    <span class="text-9">Renting</span>
+                </a>
+
+                <a href="renting.html">
+                    <div class="pic-4">
+                        <img src="/assets/3image/borrow-64 1.png" alt="Renting Icon">
+                    </div>
+                </a>
+            </div>
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Profile</title>
+                <link rel="stylesheet" href="profile_style.css">
+                <script type="module" src="/assets/js/profile_java.js" defer></script>
+            </head>
+            <body>
+                <div class="profile-container">
+                    <div class="profile-row">
+                        <span class="label">Name</span>
+                        <span class="value" id="firstName">Loading...</span>
+                    </div>
+                    <div class="profile-row">
+                        <span class="label">Last Name</span>
+                        <span class="value" id="lastName">Loading...</span>
+                    </div>
+                    <div class="profile-row">
+                        <span class="label">ID Number</span>
+                        <span class="value" id="idNumber">Loading...</span>
+                    </div>
+                    <div class="profile-row">
+                        <span class="label">Department</span>
+                        <span class="value" id="department">Loading...</span>
+                    </div>
+                    <div class="profile-row">
+                        <span class="label">Program</span>
+                        <span class="value" id="college">Loading...</span>
+                    </div>
+                    <div class="profile-row">
+                        <span class="label">Contact Number</span>
+                        <span class="value" id="contactNumber">Loading...</span>
+                    </div>
+                    <div class="profile-row">
+                        <span class="label">Email Address</span>
+                        <span class="value" id="emailAddress">Loading...</span>
+                    </div>
+                </div>
+            </body>
+            </html>
+            
+
+            <div class="group-5">
+                <div class="section-11"></div>
+                <span class="text-23" onclick="logout()">Log out</span>
+            </div>
+
+            
+        </div>
+    </body>
+</html>
